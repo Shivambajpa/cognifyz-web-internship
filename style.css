@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+.hero{
+    padding:50px;
+}
+
+.hero-image{
+    width:300px;
+    max-width:100%;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+#colorBtn{
+    transition:0.3s;
+}
+
+/* Responsive Design */
+@media(max-width:768px){
+
+    .hero{
+        padding:20px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    .hero-image{
+        width:100%;
+    }
+}
